@@ -1,6 +1,6 @@
 # Deep Learning Course Notebooks
 
-This repository contains my Jupyter Notebook implementations and assignments from the **Deep Learning** course. The materials cover fundamental and advanced topics such as neural networks, convolutional networks, transformers, generative models, and recent trends in self-supervised and foundation models.
+This repository contains my Jupyter Notebook implementations and assignments from the **Deep Learning** course that I eagerly audited. The materials cover fundamental and advanced topics such as neural networks, convolutional networks, transformers, generative models, and recent trends in self-supervised and foundation models.
 
 Each session includes notebooks with code experiments, implementations of algorithms, and analyses.
 
@@ -52,7 +52,19 @@ Below you will find the links to each session’s notebooks with a brief descrip
   Development of a multi-layer perceptron entirely in NumPy, evaluated on the MNIST and California Housing datasets.
 - [Notebook 3: PyTorch Tutorial](HW1/pytorch_basic.ipynb)  
   Introduction to PyTorch tensors and their practical challenges. Includes the implementation of a simple MLP using PyTorch for the MNIST dataset.
+  
 ---
 
+### **HW2: Convolutional Neural Network Implementations**
+
+* **[Notebook 1: Image Classification and Colorization](HW2/CIFAR10_Classification_And_Colorization.ipynb)**
+    * **ResNet-18:** An implementation of the ResNet-18 architecture for image classification, trained on the CIFAR-10 dataset.
+    * **UNet:** A UNet model built and trained to perform automatic image colorization on grayscale inputs.
+* **[Notebook 2: CNN from Scratch](HW2/HW2_CNN_TODO.ipynb)**
+    * Demonstrates the fundamental building blocks of CNNs by implementing a standard network from scratch in PyTorch.
+    * Features a custom data augmentation pipeline to improve model generalization.
+* **[Notebook 3: YOLOv2 for Object Detection](HW2/HW2_YOLO_TODO.ipynb)**
+    * An implementation of the YOLOv2 (You Only Look Once v2) architecture, a highly efficient model for real-time object detection.
+---
 
 
