@@ -6,38 +6,6 @@ Each session includes notebooks with code experiments, implementations of algori
 
 ---
 
-## 📚 Course Topics
-
-| Session | Topic |
-|:---:|:---|
-| 1 | Introduction to Deep Learning & Machine Learning Review |
-| 2 | MLP I – Neural Networks, Universal Approximation Theorem |
-| 3 | MLP II – Training Neural Networks & Back-Propagation |
-| 4 | Optimization |
-| 5 | Optimization & Generalization |
-| 6 | Training Techniques |
-| 7 | Convolutional Neural Networks (CNN) |
-| 8 | CNN Architectures |
-| 9 | CNNs in Vision Problems (Segmentation, Object Detection, etc.) |
-| 10 | RNN I – RNNs and LSTMs |
-| 11 | RNN II – Word Embeddings, Language Modeling |
-| 12 | Attention & Transformer I |
-| 13 | Transformer II – BERT, T5, GPT, ViT |
-| 14 | Transformer III – Large Language Models |
-| 15 | Generative Models I – Variational Autoencoders (VAE) |
-| 16 | Generative Models II – Generative Adversarial Networks (GAN) |
-| 17 | Generative Models III – Diffusion Models |
-| 18 | Generative Models IV – Diffusion Models (Continued) |
-| 19 | Self-supervised Learning I – Pretext Tasks, Contrastive Learning |
-| 20 | Self-supervised Learning II – Losses and Architectures |
-| 21 | Recent Foundation Models – CLIP, DALL·E |
-| 22 | Graph Neural Networks |
-| 23 | Visualization & Interpretability |
-| 24 | Adversarial Robustness |
-| 25 | Advanced Topics |
-
----
-
 ## 📝 Homeworks and Projects
 
 Below you will find the links to each session’s notebooks with a brief description of their content.
@@ -77,4 +45,44 @@ Below you will find the links to each session’s notebooks with a brief descrip
     * Implemented a decoder-only Language Model to generate Friends dialogues.
 * **[Notebook 3: Bert for Masked Language Modeling and Sequence Classification](HW3/Bert_MLM_SeqClassification-NO-OUTPUT.ipynb)**
     * Implemented and trained a bert for masked LM and sequence classification by training the bert by myself and hugging face trainer.
+---
+
+### **HW4: VAE, GAN, Diffusion Model**
+
+* **[Notebook 1: VAE and GAN](HW4/GAN_VAE-NO-OUTPUT.ipynb)**
+    * **VAE and GAN** Implemented VAE and GAN on MNIST dataset to generate MNIST numbers.
+* **[Notebook 2: Diffusion Model](HW4/DDOM-NO_OUTPUT.ipynb)**
+    * Implemented DDPM on captcha dataset. The model can generate unconditional and conditional (conditioned on the charachters in a captcha) images. Implemented using customized U-Net having additional attention up/down block for noise predictor. Implemented Forward and Backward process by myself.
+---
+
+## 📚 Course Topics
+
+| Session | Topic |
+|:---:|:---|
+| 1 | Introduction to Deep Learning & Machine Learning Review |
+| 2 | MLP I – Neural Networks, Universal Approximation Theorem |
+| 3 | MLP II – Training Neural Networks & Back-Propagation |
+| 4 | Optimization |
+| 5 | Optimization & Generalization |
+| 6 | Training Techniques |
+| 7 | Convolutional Neural Networks (CNN) |
+| 8 | CNN Architectures |
+| 9 | CNNs in Vision Problems (Segmentation, Object Detection, etc.) |
+| 10 | RNN I – RNNs and LSTMs |
+| 11 | RNN II – Word Embeddings, Language Modeling |
+| 12 | Attention & Transformer I |
+| 13 | Transformer II – BERT, T5, GPT, ViT |
+| 14 | Transformer III – Large Language Models |
+| 15 | Generative Models I – Variational Autoencoders (VAE) |
+| 16 | Generative Models II – Generative Adversarial Networks (GAN) |
+| 17 | Generative Models III – Diffusion Models |
+| 18 | Generative Models IV – Diffusion Models (Continued) |
+| 19 | Self-supervised Learning I – Pretext Tasks, Contrastive Learning |
+| 20 | Self-supervised Learning II – Losses and Architectures |
+| 21 | Recent Foundation Models – CLIP, DALL·E |
+| 22 | Graph Neural Networks |
+| 23 | Visualization & Interpretability |
+| 24 | Adversarial Robustness |
+| 25 | Advanced Topics |
+
 ---
