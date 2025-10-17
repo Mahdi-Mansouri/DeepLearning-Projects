@@ -51,7 +51,7 @@ Below you will find the links to each session’s notebooks with a brief descrip
 
 * **[Notebook 1: VAE and GAN](HW4/GAN_VAE-NO-OUTPUT.ipynb)**
     * **VAE and GAN** Implemented VAE and GAN on MNIST dataset to generate MNIST numbers.
-* **[Notebook 2: Diffusion Model](HW4/DDOM-NO_OUTPUT.ipynb)**
+* **[Notebook 2: Diffusion Model](HW4/DDPM-NO_OUTPUT.ipynb)**
     * Implemented DDPM on captcha dataset. The model can generate unconditional and conditional (conditioned on the charachters in a captcha) images. Implemented using customized U-Net having additional attention up/down block for noise predictor. Implemented Forward and Backward process by myself.
 ---
 
