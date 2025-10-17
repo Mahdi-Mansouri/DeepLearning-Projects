@@ -43,7 +43,7 @@ Below you will find the links to each session’s notebooks with a brief descrip
 * **[Notebook 2: SimpleGPT](HW3/simple_GPT-NO-OUTPUT.ipynb)**
     * Implemented a Transformer block from scratch using pytorch.
     * Implemented a decoder-only Language Model to generate Friends dialogues.
-* **[Notebook 3: Bert for Masked Language Modeling and Sequence Classification](HW3/Bert_MLM_SeqClassification-NO-OUTPUT.ipynb)**
+* **[Notebook 3: Bert for Masked Language Modeling and Sequence ClassificatioHW4/DDPM-NO-OUTPUT.ipynbn](HW3/Bert_MLM_SeqClassification-NO-OUTPUT.ipynb)**
     * Implemented and trained a bert for masked LM and sequence classification by training the bert by myself and hugging face trainer.
 ---
 
