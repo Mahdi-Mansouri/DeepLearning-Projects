@@ -43,7 +43,7 @@ Below you will find the links to each session’s notebooks with a brief descrip
 * **[Notebook 2: SimpleGPT](HW3/simple_GPT-NO-OUTPUT.ipynb)**
     * Implemented a Transformer block from scratch using pytorch.
     * Implemented a decoder-only Language Model to generate Friends dialogues.
-* **[Notebook 3: Bert for Masked Language Modeling and Sequence ClassificatioHW4/DDPM-NO-OUTPUT.ipynbn](HW3/Bert_MLM_SeqClassification-NO-OUTPUT.ipynb)**
+* **[Notebook 3: Bert for Masked Language Modeling and Sequence Classification](HW3/Bert_MLM_SeqClassification-NO-OUTPUT.ipynb)**
     * Implemented and trained a bert for masked LM and sequence classification by training the bert by myself and hugging face trainer.
 ---
 
@@ -53,6 +53,10 @@ Below you will find the links to each session’s notebooks with a brief descrip
     * **VAE and GAN** Implemented VAE and GAN on MNIST dataset to generate MNIST numbers.
 * **[Notebook 2: Diffusion Model](HW4/DDPM-NO-OUTPUT.ipynb)**
     * Implemented DDPM on captcha dataset. The model can generate unconditional and conditional (conditioned on the charachters in a captcha) images. Implemented using customized U-Net having additional attention up/down block for noise predictor. Implemented Forward and Backward process by myself.
+---
+### **HW5: Stable Diffusion**
+* **[Notebook 1: Stable Diffusion & DreamBooth Implementation](HW5/StableDiffusion-NO-OUTPUT.ipynb)**
+    * An implementation of a latent diffusion pipeline from scratch, featuring manual text embedding generation and custom guidance loss loops. Includes a DreamBooth fine-tuning module with a custom dataset and training loop to personalize the U-Net model on new subjects.
 ---
 
 ## 📚 Course Topics
